@@ -462,6 +462,15 @@ body {
     overflow: hidden;
 }
 
+/* 深蓝色粗体样式 */
+.bold-blue {
+    font-weight: bold;
+    color: #1a365d;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
 .about-decoration {
     position: absolute;
     top: 0;
@@ -539,11 +548,12 @@ body {
 .about-content h3 + p {
     font-weight: bold;
     color: #1a365d;
-    font-size: 1.05rem;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
 }
 
 .about-content p {
+    font-size: 1rem;
     margin-bottom: 15px;
     line-height: 1.8;
     color: #333;
