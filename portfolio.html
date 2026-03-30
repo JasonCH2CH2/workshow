@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">我的作品集</a>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="portfolio.html" class="active">作品集</a>
+                <a href="articles.html">文章</a>
+                <a href="about.html">关于我</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 作品集部分 -->
+    <section class="portfolio">
+        <div class="portfolio-decoration"></div>
+        <div class="container">
+            <h2>作品集</h2>
+            
+            <!-- 分类筛选 -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="course">课程作业</button>
+                <button class="filter-btn" data-filter="personal">个人项目</button>
+                <button class="filter-btn" data-filter="team">团队项目</button>
+            </div>
+
+            <!-- 项目网格 -->
+            <div class="project-grid">
+                <!-- 项目1 -->
+                <div class="project-card" data-category="course">
+                    <div class="project-content">
+                        <h3>个人博客网站（在建）</h3>
+                        <p class="project-description">使用HTML、CSS和JavaScript开发的个人博客网站，支持文章发布、分类和搜索功能。</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <button class="view-details">查看详情</button>
+                    </div>
+                </div>
+
+                <!-- 项目2 -->
+                <div class="project-card" data-category="personal">
+                    <div class="project-content">
+                        <h3>在线点单小程序（在建）</h3>
+                        <p class="project-description">使用Python和Django开发的在线点单小程序，支持用户点餐和支付。</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <button class="view-details">查看详情</button>
+                    </div>
+                </div>
+
+                <!-- 项目3 -->
+                <div class="project-card" data-category="team">
+                    <div class="project-content">
+                        <h3>在线购物平台（未完成）</h3>
+                        <p class="project-description">使用React和Node.js开发的在线购物平台，支持商品浏览、购物车和支付功能。</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                        </div>
+                        <button class="view-details">查看详情</button>
+                    </div>
+                </div>
+
+                <!-- 项目4 -->
+                <div class="project-card" data-category="personal">
+                    <div class="project-content">
+                        <h3>学生管理系统（未完成）</h3>
+                        <p class="project-description">使用Python和Django开发的学生管理系统，支持学生信息的增删改查和成绩管理。</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <button class="view-details">查看详情</button>
+                    </div>
+                </div>
+
+                <!-- 项目5 -->
+                <div class="project-card" data-category="personal">
+                    <div class="project-content">
+                        <h3>数据分析工具（未完成）</h3>
+                        <p class="project-description">使用Python和Pandas开发的数据分析工具，支持数据清洗、分析和可视化。</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                        <button class="view-details">查看详情</button>
+                    </div>
+                </div>
+
+                <!-- 项目6 -->
+                <div class="project-card" data-category="team">
+                    <div class="project-content">
+                        <h3>企业管理系统（未完成）</h3>
+                        <p class="project-description">使用Vue和Element UI开发的企业管理系统，支持员工管理、考勤和薪资管理。</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue</span>
+                            <span class="tag">Element UI</span>
+                            <span class="tag">Axios</span>
+                        </div>
+                        <button class="view-details">查看详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
